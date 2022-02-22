@@ -37,3 +37,7 @@ hr {
     margin: 20px auto;
     width:50%;
 }
+
+footer a:hover{
+    color:darkmagenta;
+}
