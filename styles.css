@@ -1,0 +1,39 @@
+/* .slider {
+    filter: blur(0.5px);
+    -webkit-filter: blur(0.5px);
+} */
+
+.progress {
+    height: 20px;
+}
+
+h5[class="text"] {
+    text-align:left;
+}
+
+.img-responsive {
+    margin: 1.5rem;
+    border-radius: 5px;
+    opacity: 80%;
+}
+
+@media only screen and (max-width:720px) {
+    .img-responsive{
+        max-width: 100%;
+        height: auto
+    }
+}
+
+.img-responsive:hover{
+    opacity: 100%;
+}
+
+.form-group{
+    margin: 0 auto;
+    width: 50%;
+}
+
+hr {
+    margin: 20px auto;
+    width:50%;
+}
