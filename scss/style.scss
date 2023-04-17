@@ -24,7 +24,7 @@ $font: 'Poppins', sans-serif;
 $secondery_font:  'Hind', sans-serif;
 
 @mixin background-opacity($color, $opacity: 0.6) {
-    background: $color; /* The Fallback */
+    background: $color; 
     background: rgba($color, $opacity);
 }
 
@@ -839,7 +839,7 @@ a.goto-social,a.goto-social:hover {
 		}
 		.yr-pers {
 			color:$primery_font_color;
-			font-family:$secondery_font;
+			font-family:$primery_font;
 			font-size:12px;
 			font-weight:600;
 			letter-spacing:.5px;
